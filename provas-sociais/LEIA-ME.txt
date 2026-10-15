@@ -1,0 +1,42 @@
+MARIA LUIZA STUDIO — ÁLBUNS DOS BEBÊS
+
+SITE INDEPENDENTE DO PORTFÓLIO ANTERIOR
+Crie uma pasta/repositório separado. Não substitua o portfólio existente.
+O visual mantém fundo creme, títulos Fraunces, texto Jost e cards com fotos.
+Página inicial: uma capa + nome + idade por bebê.
+Ao clicar: página com exatamente 5 fotos. Clique nas fotos para ampliar, use as setas para navegar, X ou Esc para fechar.
+Nenhum nome, depoimento ou cliente de exemplo foi inventado. O site começa vazio.
+
+COMO ABRIR
+1. Extraia a pasta inteira do ZIP.
+2. No Windows, dê dois cliques em ABRIR-PAINEL.bat.
+3. Requer Python 3 com Tkinter, como o painel do portfólio anterior. Nenhuma biblioteca extra.
+4. Clique Novo álbum. Preencha nome e idade no idioma do público (ex.: Sofía / 2 meses).
+5. Escolha a capa e as cinco fotos. Os campos Foto 1 a Foto 5 definem a ordem.
+6. Ou use Selecionar as 5 fotos de uma vez: a ordem será alfabética pelo nome dos arquivos; confira os campos antes de salvar.
+7. Clique Salvar álbum e atualizar site. Clique Abrir site para conferir.
+8. Selecione na lista para editar. Não é necessário escolher as imagens de novo para editar somente nome ou idade.
+9. Use Subir/Descer para mudar a posição do card na página inicial.
+10. Remover selecionado exclui o card e a página do álbum. As imagens ficam guardadas para evitar perdas.
+
+IMAGENS
+Formatos: JPG, JPEG, PNG e WEBP.
+Capa sugerida: 600 x 750 px (4:5), mantendo a proporção original. Outras proporções funcionam: o site encaixa a imagem inteira e pode deixar margens.
+Fotos do álbum: mantenha as originais em boa qualidade. A grade e a ampliação mostram a foto inteira, sem cortes ou deformação.
+O painel copia os arquivos, sem redimensionar ou comprimir. Para reduzir o peso, prepare as imagens antes de cadastrar.
+O arquivo albuns.json contém os cadastros; mantenha-o junto da pasta img.
+
+PUBLICAR NO GITHUB PAGES
+Use um novo repositório para este site.
+Coloque os arquivos desta pasta na raiz do repositório (index.html, build.py, painel.py, albuns.json, css, js, img e albuns).
+No GitHub Desktop: Commit e Push.
+Ative GitHub Pages nesse novo repositório, usando a branch onde enviou os arquivos e a pasta raiz.
+O painel roda no computador, não dentro do GitHub Pages. Abra o painel sempre na pasta local desse novo repositório.
+Salvar gera os HTML automaticamente; depois envie as alterações pelo GitHub Desktop.
+Não precisa executar build.py separadamente quando salva pelo painel.
+Não edite os textos diretamente no HTML: o gerador recria as páginas.
+Guarde um backup da pasta do site para preservar imagens e cadastros.
+
+VERIFICAÇÃO
+Testados geração das páginas, cadastro, edição, validação de cinco fotos, remoção da página antiga e caminhos dos arquivos.
+A interface do Windows e o comportamento visual no navegador precisam ser conferidos no seu computador.
